@@ -42,3 +42,21 @@
 
 4. Printer端。打印机，只要在PC上设置好默认的打印机选型即可；
 
+### 文件结构
+
+1. 微信小程序工程文件。这个repo本身就是一个微信小程序的项目，利用微信开发者工具可以导入；
+
+2. Python相关代码在python目录下，包括；
+
+    2.1 server.py，服务端的TCP Server代码；
+    
+    2.2 client.py，Client端的TCP Client代码；
+    
+    2.3 pc_client.py，用户侧的打印工具代码；
+
+3. PHP相关代码在php目录下；
+
+    3.1 upload.php，响应post的后端代码；
+
+4. nginx配置代码在nginx目录下；
+
